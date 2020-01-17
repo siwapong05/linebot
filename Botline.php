@@ -18,9 +18,9 @@ const LED_TOPIC = `/ESP/LED`;
 const mqtt = require('mqtt');
 // Create a client connection to CloudMQTT for live data
 const client = mqtt.connect('mqtt://m16.cloudmqtt.com', {
-  username: 'benzintel',
-  password: 'tam024685051',
-  port: 16876
+  username: 'aqrrjrij',
+  password: 'jpNjQ7wZKfdb',
+  port: 10571
 });
 
 client.on('connect', function() { 
